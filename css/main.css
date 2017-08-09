@@ -1,0 +1,51 @@
+p{
+    text-align: center;
+    margin:0px;
+    padding:0px;
+
+}
+.container{
+    /*width: 1200px;*/
+}
+.box1{
+    background-color: aliceblue;
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.box2{
+    background-color: burlywood;
+    width:100%;
+    height:auto;
+}
+.box3{
+    background-color: cornsilk;
+    width:100%;
+    height:auto;
+}
+.box4{
+    background-color: darksalmon;
+}
+.box5{
+    background-color: dimgray;
+}
+.box6{
+    background-color: beige;
+}
+.footer{
+    background-color: darkslategrey;
+    padding:50px;
+    margin-top: 20px;
+}
+.footer p{
+    text-align: left;
+    color: aliceblue
+}
+.middle-pic{
+    margin:10px 0;
+}
+.box1 img{
+    position: absolute;
+    left:50px;
+    top:30px;
+}
