@@ -10,7 +10,7 @@ p{
 .box1{
     background-color: aliceblue;
     width:100%;
-    height:auto;
+    height:100%;
     position: relative;
 }
 .box2{
@@ -46,6 +46,23 @@ p{
 }
 .box1 img{
     position: absolute;
-    left:50px;
-    top:30px;
+    left:40px;
+}
+.container .row{
+    display: flex;
+}
+.logo img{
+    width: 60%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+.container-fluid{
+    background-color: darkorange;
+}
+.navbar-brand{
+    position:fixed;
+    width: 100%;
+}
+.navbar-nav{
+      
 }
