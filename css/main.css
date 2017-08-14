@@ -52,17 +52,26 @@ p{
     display: flex;
 }
 .logo img{
-    width: 60%;
+    /*width: 100%;*/
     max-width: 150px;
     margin: 0 auto;
+    /*position:absolute;*/
+    
 }
-.container-fluid{
-    background-color: darkorange;
+.container-fluid {
+
 }
 .navbar-brand{
-    position:fixed;
+    /*position:absolute;*/
     width: 100%;
+    background-color: darkorange;
+    /*vertical-align :center;*/
 }
 .navbar-nav{
-      
+    width:100%;
+    text-align:center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
 }
