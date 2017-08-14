@@ -81,10 +81,7 @@ p{
     
     }
 }
-.navbar-nav li{
-      display: inline-block;
-    }
-}
+
 
 @media screen and (max-width: 400px){
     .container .row{
