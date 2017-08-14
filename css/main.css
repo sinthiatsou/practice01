@@ -55,23 +55,45 @@ p{
     /*width: 100%;*/
     max-width: 150px;
     margin: 0 auto;
-    /*position:absolute;*/
-    
+    /*position:absolute;*/ 
 }
-.container-fluid {
 
+.container-fluid {
+   background-color: darkorange;
+}
+
+.navbar-header{
+   /* background-color: darkorange;*/
 }
 .navbar-brand{
     /*position:absolute;*/
-    width: 100%;
+    width: initial;
     background-color: darkorange;
-    /*vertical-align :center;*/
+   vertical-align :center;
 }
+
 .navbar-nav{
     width:100%;
     text-align:center;
     > li {
-      float: none;
+      /*float: none;*/
       display: inline-block;
+    
+    }
+}
+.navbar-nav li{
+      display: inline-block;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container .row{
+    display: inline;
+    }
+    img{
+        margin-bottom: 10px;
+    }
+    .col-xs-12{
+        padding:0px;
     }
 }
