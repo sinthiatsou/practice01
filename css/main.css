@@ -52,10 +52,11 @@ p{
     display: flex;
 }
 .logo img{
-    /*width: 100%;*/
+    width: 100%;
     max-width: 150px;
     margin: 0 auto;
-    /*position:absolute;*/ 
+    /*position:absolute; */
+    vertical-align :center;
 }
 
 .container-fluid {
@@ -71,6 +72,9 @@ p{
     background-color: darkorange;
    vertical-align :center;
 }
+.navbar{
+    margin-bottom: 10px;
+}
 
 .navbar-nav{
     width:100%;
@@ -82,7 +86,11 @@ p{
     }
 }
 
-
+@media (min-width: 768px)
+navbar.less:661
+.navbar {
+    border-radius: 0px; 
+}
 @media screen and (max-width: 400px){
     .container .row{
     display: inline;
